@@ -3,9 +3,12 @@
   var self = ($.nElauro = new (function () {})());
 
   $.extend(self, {
-    nElauroBackgrounds: ["https://imgur.com/IznlvbJ"],
+    nElauroBackgrounds: ["https://i.imgur.com/IznlvbJ.png"],
 
-    nElauroImgs: ["https://imgur.com/IznlvbJ", "https://imgur.com/Fad5MlR"],
+    nElauroImgs: [
+      "https://i.imgur.com/IznlvbJ.png",
+      "https://i.imgur.com/Fad5MlR.png",
+    ],
 
     handleImages: function (lstImgs, time) {
       $.each($("img"), function (i, item) {
